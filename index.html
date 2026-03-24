@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyS Informática | Soluciones IT</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-blue-600">
+                CyS <span class="text-slate-800">INFORMÁTICA</span>
+            </div>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#inicio" class="hover:text-blue-600 transition">Inicio</a>
+                <a href="#servicios" class="hover:text-blue-600 transition">Servicios</a>
+                <a href="#contacto" class="hover:text-blue-600 transition">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero-gradient text-white py-20 px-6">
+        <div class="container mx-auto flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+                    Soluciones Tecnológicas a la medida de tu empresa.
+                </h1>
+                <p class="text-lg text-slate-300 mb-8">
+                    Especialistas en Desarrollo de Software y Soporte IT Remoto. Maximizamos la continuidad de tu negocio.
+                </p>
+                <a href="#contacto" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-bold transition">
+                    Consultar ahora
+                </a>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <i class="fa-solid fa-microchip text-[150px] text-blue-500 opacity-50"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="servicios" class="py-20 container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-16 underline decoration-blue-500 underline-offset-8">Nuestros Servicios</h2>
+        
+        <div class="grid md:grid-cols-2 gap-10">
+            <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-blue-600 hover:transform hover:-translate-y-2 transition">
+                <div class="text-blue-600 text-4xl mb-4"><i class="fa-solid fa-code"></i></div>
+                <h3 class="text-xl font-bold mb-4">Desarrollo de Software</h3>
+                <p class="text-gray-600">Creamos herramientas digitales personalizadas: aplicaciones web, sistemas de gestión y automatización de procesos para optimizar tu flujo de trabajo.</p>
+            </div>
+
+            <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-blue-600 hover:transform hover:-translate-y-2 transition">
+                <div class="text-blue-600 text-4xl mb-4"><i class="fa-solid fa-headset"></i></div>
+                <h3 class="text-xl font-bold mb-4">Soporte IT Remoto</h3>
+                <p class="text-gray-600">Asistencia técnica inmediata sin fronteras. Resolución de incidencias, mantenimiento preventivo y configuración de redes de forma remota.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto" class="bg-slate-900 text-white py-12">
+        <div class="container mx-auto px-6 grid md:grid-cols-3 gap-12 border-b border-slate-700 pb-10">
+            <div>
+                <h4 class="text-xl font-bold mb-4">CyS Informática</h4>
+                <p class="text-slate-400">Innovación y respaldo técnico constante para tu infraestructura digital.</p>
+            </div>
+            <div>
+                <h4 class="text-xl font-bold mb-4">Ubicación</h4>
+                <p class="text-slate-400"><i class="fa-solid fa-location-dot mr-2"></i> SUIPACHA 268, Piso 8, Dpto: A</p>
+                <p class="text-slate-400 italic">Ciudad Autónoma de Buenos Aires</p>
+            </div>
+            <div>
+                <h4 class="text-xl font-bold mb-4">Contacto Legal</h4>
+                <p class="text-slate-400"><i class="fa-solid fa-phone mr-2"></i> +5491168849928</p>
+                <p class="text-slate-400"><i class="fa-solid fa-id-card mr-2"></i> CUIT: 30-62337308-4</p>
+            </div>
+        </div>
+        <div class="text-center mt-10 text-slate-500 text-sm">
+            &copy; 2024 CyS Informática. Todos los derechos reservados.
+        </div>
+    </footer>
+
+</body>
+</html>
